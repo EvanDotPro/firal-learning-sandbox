@@ -28,7 +28,7 @@ try {
     require_once 'Zend/Application.php';
     $application = new Zend_Application(
     	APPLICATION_ENV,
-    	APPLICATION_PATH . '/configs/' . APPLICATION_MODE . 'config.php'
+    	APPLICATION_PATH . '/configs/config.php'
     );
     $application->bootstrap();
 } catch(Zend_Config_Exception $e){
