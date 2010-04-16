@@ -1,7 +1,6 @@
 <?php
-
-$config['bootstrap']['path']    = APPLICATION_PATH . '/Bootstrap.php';
-$config['bootstrap']['class']   = 'Bootstrap';
+$config['bootstrap']['path']    = APPLICATION_PATH . '/ServerBootstrap.php';
+$config['bootstrap']['class']   = 'ServerBootstrap';
 
 $config['resources']['layout']['pluginClass']  = 'Firal_Controller_Plugin_Layout';
 $config['resources']['layout']['layout'] = 'layout';
@@ -26,4 +25,3 @@ $config['resources']['multidb']['slave1']['host']       = 'localdev';
 $config['resources']['multidb']['slave1']['username']   = 'cosmos';
 $config['resources']['multidb']['slave1']['password']   = 'cosmos';
 $config['resources']['multidb']['slave1']['dbname']     = 'cosmos';
-
