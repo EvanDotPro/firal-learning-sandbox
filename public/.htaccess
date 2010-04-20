@@ -2,7 +2,7 @@ order deny,allow
 allow from all
 
 SetEnv APPLICATION_ENV development
-SetEnv APPLICATION_MODE local
+SetEnv APPLICATION_MODE client
 
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} -s [OR]

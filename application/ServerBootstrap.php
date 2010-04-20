@@ -1,5 +1,5 @@
 <?php
-class ServerBootstrap extends Zend_Application_Bootstrap_Bootstrap
+class ServerBootstrap extends Firal_Bootstrap
 {
     protected function _initRpcServer()
     {

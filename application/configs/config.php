@@ -1,7 +1,6 @@
 <?php
 $config = array();
 
-
 $config['phpSettings']['date']['timezone'] = 'America/Phoenix';
 $config['autoloadernamespaces'][] = 'Firal_';
 

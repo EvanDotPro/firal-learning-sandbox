@@ -20,10 +20,14 @@ defined('APPLICATION_MODE')
 	|| define('APPLICATION_MODE',
 			(getenv('APPLICATION_MODE') ? getenv('APPLICATION_MODE')
 											: 'local'));
+
 define('REQUEST_MICROTIME', microtime(true));
 
 // Set the include path
 set_include_path(implode(PATH_SEPARATOR, array('.',LIBRARY_PATH)));
+
+
+
 try {
     require_once 'Zend/Application.php';
     $application = new Zend_Application(

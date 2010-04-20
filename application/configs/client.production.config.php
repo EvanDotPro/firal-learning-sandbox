@@ -1,14 +1,14 @@
 <?php
 
-$config['bootstrap']['path']    = APPLICATION_PATH . '/Bootstrap.php';
-$config['bootstrap']['class']   = 'Bootstrap';
+$config['bootstrap']['path']    = APPLICATION_PATH . '/ClientBootstrap.php';
+$config['bootstrap']['class']   = 'ClientBootstrap';
 
 $config['resources']['layout']['pluginClass']  = 'Firal_Controller_Plugin_Layout';
 $config['resources']['layout']['layout'] = 'layout';
 $config['resources']['modules'] = array();
 
 $config['resources']['frontController']['moduleDirectory'] = APPLICATION_PATH . '/modules';
-$config['resources']['frontController']['defaultModule'] = 'default';
+$config['resources']['frontController']['defaultModule'] = 'frontend';
 $config['resources']['frontController']['throwExceptions'] = true;
 //$config['resources']['frontController']['returnResponse'] = true;
 $config['resources']['frontController']['prefixDefaultModule'] = true;
